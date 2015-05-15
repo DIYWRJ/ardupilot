@@ -40,8 +40,8 @@ const AP_Param::Info var_info[] PROGMEM = {
     GSCALAR(software_type,  "SYSID_SW_TYPE",   Parameters::k_software_type),
 
     // @Param: SYSID_THISMAV
-    // @DisplayName: Mavlink version
-    // @Description: Allows reconising the mavlink version
+    // @DisplayName: 此载具的MAVLink系统ID
+    // @Description: 允许为此载具设置一个单独的MAVLINK系统ID，以区别于在同一网络上的其它载具
     // @Range: 1 255
     // @User: Advanced
     GSCALAR(sysid_this_mav, "SYSID_THISMAV",   MAV_SYSTEM_ID),
